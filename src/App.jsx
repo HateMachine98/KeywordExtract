@@ -4,8 +4,7 @@ import Footer from "./components/Footer";
 import TextInput from "./components/TextInput";
 import { useState } from "react";
 import KeywordModel from "./components/KeywordModel";
-// VITE_OPENAI_API_KEY='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'
-// VITE_OPENAI_API_URL='https://api.openai.com/v1/completions'
+
 const App = () => {
   const [keywords, setKeywords] = useState("");
   const [isOpen, setIsOpen] = useState(false);
